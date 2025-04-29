@@ -12,5 +12,5 @@ dags:
     maxFailures: 0
     subPath: "dag"
     sshKeySecret: git-ssh-key-secret
-    knownHosts: true
-    knownHostsConfigMapName: git-known-hosts
+    knownHosts: |
+      github.com,140.82.121.4 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICV1DkzV1nHm3GGqXwqddH6lP0osEEXJaHEMw+zVHJ1yYdtT3Il2VbXJgeFH9YjR5vVQ==
