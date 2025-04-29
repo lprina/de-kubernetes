@@ -2,4 +2,13 @@ fernetKey: MlA2WWpkeXhlU3V4dTRPMFlUajFtaFEzZDRzcjVZblo=
 webserverSecretKey: MlA2WWpkeXhlU3V4dTRPMFlUajFtaFEzZDRzcjVZblo=
 executor: "KubernetesExecutor"
 
-dags
+dags:
+  gitSync:
+    enabled: True
+    repo: https://github.com/lprina/de-kubernetes.git
+    branch: main
+    rev: HEAD
+    depth: 1
+    maxFailures: 0
+    subPath: "dag"
+    sshKeySecret: git-ssh-key-secret
