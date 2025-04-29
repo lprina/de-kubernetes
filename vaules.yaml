@@ -12,3 +12,5 @@ dags:
     maxFailures: 0
     subPath: "dag"
     sshKeySecret: git-ssh-key-secret
+    knownHosts: true
+    knownHostsConfigMapName: git-known-hosts
