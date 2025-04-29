@@ -1,0 +1,5 @@
+fernetKey: MlA2WWpkeXhlU3V4dTRPMFlUajFtaFEzZDRzcjVZblo=
+webserverSecretKey: MlA2WWpkeXhlU3V4dTRPMFlUajFtaFEzZDRzcjVZblo=
+executor: "KubernetesExecutor"
+
+dags
